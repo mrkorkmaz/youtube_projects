@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+body{
+    background-color: black;
+    color: white;
+    margin-top: 50px;
+}
+h1{
+    margin: 30px 0;
+    font-size: 50px;
+    font-family: 'Times New Roman', Times, serif;
+}
+nav{
+    margin: auto;
+}
+nav a{
+    display: inline-block;
+    margin: 5px;
+    width: 100px;
+    color: white;
+    text-decoration: none;
+    background-color: burlywood;
+    padding: 10px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 20px;
+}
+nav a:hover{
+    color: red;
+    background-color: darkgoldenrod;
+}
+#about{
+    margin-bottom: 450px;
+}
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    margin: 100px;
+    color: blueviolet;
+}
+h3{
+    font-size: 40px;
+    text-decoration: underline;
+    margin-bottom: 30px;
+    padding: 10px;
+    background-color: red;
+}
+img{
+    width: 350px;
+    border-radius: 20px;
+}
+.project img:hover{
+    opacity: 0.7;
+}
+.contact{
+    margin-bottom: 500px;
+}
+.contact a{
+    display: inline-block;
+    background-color: blue;
+    color: burlywood;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 0 25px 25px 25px;
+    text-decoration: none;
+}
+.contact a:hover{
+    color: red;
+}
+h4{
+    font-size: 24px;
+}
+input{
+    display: block;
+    border: 3px solid red;
+    border-radius: 10px;
+    font-size: 26px;
+    background-color: burlywood;
+    color: wheat;
+    font-weight: 800;
+}
+.mesaj{
+    height: 150px;
+}
+button{
+    width: 50%;
+    height: 70px;
+    border-radius: 10px;
+    font-size: 26px;
+    background-color: bisque;
+    color: darkcyan;
+    font-weight: 800;
+}
+button:hover{
+    color: red;
+    height: 80px;
+}
+.top{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    width: 25%;
+    display: block;
+    height: 60px;
+    margin-top: 30px;
+    position: absolute;
+    right: 10px;
+}
+.top:hover{
+    height: 100px;
+    
+}
+
+button i{
+    color: black;
+}
+button i:hover{
+    color: red;
+}
