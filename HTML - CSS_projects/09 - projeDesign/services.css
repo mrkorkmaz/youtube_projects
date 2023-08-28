@@ -1,0 +1,115 @@
+@import "variables.css";
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* ! header  kısmı */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 15px;
+    background-color: var(--bg);
+    border-bottom: 4px solid var(--clarusway);
+    color: white;
+}
+header span{
+    color: var(--clarusway);
+}
+.nav{
+    display: flex;
+    gap: 0.8rem;
+}
+div a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+}   
+    /* *article kısmı */
+
+.article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem;
+    background-color: var(--bg);
+    color: white;
+    white-space: nowrap;
+}
+.article p{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.article input{
+    padding: 0.3rem ;
+   
+}
+.article button{
+    background-color:orangered;
+    color: white;
+    padding: 0.3rem;
+}
+/* main kısmı */
+.main{
+    display: flex;
+    gap: 2rem;
+}
+.left{
+    margin: 1rem 0 0 1rem;
+    flex: 2;
+}
+.text{
+    border: 3px solid black;
+    background-color: rgb(243, 241, 237);
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+    flex:1;
+    background-color: var(--bg);
+    margin: 1rem 1rem 0 0;
+    color: white;
+    padding: 1rem 2rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 200px;
+    height: 250px;
+}
+.right button{
+    background-color: orangered;
+    color: white;
+    width: 50px;
+    margin-top: 0.5rem;
+    padding: 0.5rem;
+}
+input{
+    margin-top: 4px;
+}
+
+
+/* footer kısmı */
+.footer{
+    text-align: center;
+    background-color: var(--bg);
+    padding: 2rem;
+    color: white;
+    
+    margin-top: 20%;
+}
+.footer img{
+    width: 200px;
+}
+
+@media screen and (max-width:600px){
+    header, main , article{
+        flex-direction: column;
+    }
+    .right, .left{
+        margin: auto;
+    }
+}

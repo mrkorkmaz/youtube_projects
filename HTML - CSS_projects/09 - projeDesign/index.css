@@ -1,0 +1,107 @@
+
+@import "variables.css";
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* ! header  kısmı */
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 15px;
+    background-color: var(--bg);
+    border-bottom: 4px solid var(--clarusway);
+    color: white;
+}
+header span{
+    color: var(--clarusway);
+}
+.nav{
+    display: flex;
+    gap: 0.8rem;
+}
+div a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.1rem;
+    
+}
+/* ! main kısmı */
+.img{
+    background-image: url(./assets/showcase.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.text{
+   text-align: center;
+   color: white;
+}
+.text h1{
+    font-size: 3rem;
+}
+.text p{
+    margin: 0 2rem;
+    font-size: 14px;
+    margin-top: 1rem;
+}
+/*! *article kısmı */
+
+.article{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.1rem;
+    background-color: var(--bg);
+    color: white;
+    white-space: nowrap;
+}
+.article p{
+    font-weight: 800;
+    font-size: 1.2rem;
+}
+.article input{
+    padding: 0.3rem ;
+   
+}
+.article button{
+    background-color:orangered;
+    color: white;
+    padding: 0.3rem;
+}
+/* section kısmı */
+.section{
+    display: flex;
+    gap: 1rem;
+    font-size: 14px;
+    text-align: center;
+    margin: 1.2rem;
+}
+.section img{
+    width: 20%;
+}
+/*!  footer kısmı */
+.footer{
+    text-align: center;
+    background-color: var(--bg);
+    padding: 2rem;
+    color: white;
+}
+.footer img{
+    width: 200px;
+}
+
+@media screen and (max-width:600px){
+    header, section, article{
+        flex-direction: column;
+    }
+    
+}
