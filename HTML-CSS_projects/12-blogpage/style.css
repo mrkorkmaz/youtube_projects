@@ -1,0 +1,131 @@
+body{
+    margin: 0;
+    padding: 0;
+    line-height: 1.5em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 11px;
+    background-color: #666666;
+}
+
+#container{
+    width: 800px;
+    margin: auto;
+    background-color: #FFFFFF;
+}
+.header{
+    height: 140px;
+    background-image: url(./images/header.jpg);
+}
+
+.content{
+    width: 800px;
+}
+
+.left_column{
+    float: left;
+    width: 550px;
+    min-height: 400px;
+}
+
+.right_column{
+    background-color: #eeeeee;
+    float: left;
+    width: 250px;
+    min-height: 400px;
+}
+
+.footer{
+    clear: left;
+    background-color: black;
+    padding: 5px;
+    color: white;
+    text-align: center;
+}
+
+.footer a{
+    color: white;
+}
+
+#site_title{
+    font-weight: bold;
+    padding-top: 50px;
+    padding-left: 60px;
+    font-size: 2rem;
+}
+
+#site_slogan{
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 60px;
+    font-size: 2rem;
+}
+
+.section_box{
+    margin: 10px;
+    padding: 10px;
+    background-color: #660000;
+    color: wheat;
+}
+
+.section_box2{
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #666666;
+    color: wheat;
+}
+
+.section_box a, .section_box2 a{
+    color: greenyellow;
+}
+
+.text_area{
+    margin: 10px;
+}
+
+.title{
+    padding-bottom: 10px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.subtitle{
+    padding-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.solidblockmenu{
+    margin: 0;
+    padding: 0;
+    float: left;
+    font: bold 13px Arial;
+    width: 100%;
+    border: 1px solid white;
+    border-width: 1px 0;
+    background-image: url(./images/blockdefault.gif) ;
+}
+
+.solidblockmenu li{
+    display: inline;
+}
+
+.solidblockmenu li a {
+    float: left;
+    color: black;
+    padding:5px 8px;
+    text-decoration: none;
+    border-right: 1px solid black;
+}
+
+.solidblockmenu li a:visited{
+    color: white;
+}
+
+.solidblockmenu li a:hover, .solidblockmenu li .current{
+    color: white;
+    background-image: url(./images/blockactive.gif);
+}
+
+.footer{
+    padding: 1rem;
+}
